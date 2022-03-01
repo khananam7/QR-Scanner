@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.video-container {
+  width: 50%;
+  height: 50%;
+}
+.result, .no-result {
+  display: flex;
+  padding-top: 10px;
+}
+.result {
+  align-items: flex-end;
+}
+mat-spinner {
+  padding-right: 5px;
+}
+.result-container {
+  padding-top: 20px;
+}
+.success {
+  font-size: 16px;
+}

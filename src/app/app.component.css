@@ -1,0 +1,31 @@
+.app-container {
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #424242;
+  align-items: flex-start;
+}
+
+.example-tab-icon {
+  margin-right: 8px;
+}
+
+.title-icon {
+  padding-top: 4px;
+}
+
+mat-icon, .tab-name {
+  color: black;
+}
+
+section {
+  padding-top: 10px;
+}
+
+@media screen and (max-width:768px)
+{
+  .example-tab-icon {display:none;}
+}

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.image-container {
+  height: 200px;
+  width: 200px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.canvas, .file-input {
+  display: none;
+}
+.upload-container {
+  padding-bottom: 20px;
+}
+.result-container {
+  padding-top: 20px;
+}
+.error {
+  color: red;
+}
+.success {
+  font-size: 16px;
+}
+.file-name {
+  padding-right: 10px;
+  word-break: break-all;
+}

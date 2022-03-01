@@ -1,0 +1,29 @@
+<div class="app-container">
+  <header>
+    <mat-icon class="example-tab-icon title-icon">qr_code_scanner</mat-icon>
+    <h1>{{title}}</h1>
+  </header>
+  <section>
+    <p>{{description}}</p>
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">photo_camera</mat-icon>
+          <span class="tab-name">{{scanTab}}</span>
+        </ng-template>
+        <ng-template matTabContent>
+          <app-scan-image></app-scan-image>
+        </ng-template>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">file_upload</mat-icon>
+          <span class="tab-name">{{uploadTab}}</span>
+        </ng-template>
+        <ng-template matTabContent>
+          <app-file-upload></app-file-upload>
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+  </section>
+</div>
